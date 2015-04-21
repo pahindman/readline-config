@@ -1,0 +1,6 @@
+*
+!/.gitignore.d
+!/.gitignore.d/readline-config
+!/.inputrc
+!/README.md
+!/UNLICENSE
