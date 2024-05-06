@@ -18,6 +18,7 @@ Control-l: clear-screen
 "dw": kill-word
 "dd": kill-whole-line
 "db": backward-kill-word
+"guw": downcase-word
 "cc": "ddi"
 "cw": "dwi"
 "cb": "dbi"
