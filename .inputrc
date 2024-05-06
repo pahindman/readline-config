@@ -10,6 +10,7 @@ $if mode=vi
 set keymap vi-command
 Control-l: clear-screen
 "\C-x\C-r": re-read-init-file
+"\C-x\C-f": dump-functions
 "#": insert-comment
 ".": "i !*\r"
 "|": "A | "
@@ -88,6 +89,7 @@ Control-l: clear-screen
 set keymap vi-insert
 Control-l: clear-screen
 "\C-x\C-r": re-read-init-file
+"\C-x\C-f": dump-functions
 "\C-a": beginning-of-line
 "\C-e": end-of-line
 "\e[A": history-search-backward
